@@ -1,0 +1,46 @@
+.banner {
+  color: #CCCCCC;
+  text-align: center;
+  height: calc(100vh - 60px);
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+.banner p {
+  font-size: 35px;
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 20px;
+}
+
+.banner #logo {
+  margin: 50px 0px;
+  width: 350px;
+}
+
+.banner .btn-grey {
+  background: grey;
+  font-family: helvetica;
+  font-size: ligther;
+}
+
+.banner #arrow {
+
+  width: 100px;
+  position: absolute;
+  bottom: 10px;
+  right: -10px;
+}
+.title {
+  font-family: 'Dorsa', sans-serif;
+  font-size: 112px;
+  letter-spacing: 4px;
+}
