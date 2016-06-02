@@ -1,0 +1,141 @@
+@import url('css/tabs.css');
+@import url('css/banner.css');
+@import url('css/side-bar.css');
+@import url('css/avatar.css');
+@import url('css/card.css');
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.padded {
+  margin-top: 10px;
+}
+body {
+  background-color:#6F615A;
+  font-family: Oswald;
+  text-align: center;
+  color:#CCCCCC;
+}
+a:visited { text-decoration: none; }
+a {
+   text-decoration-style: none;
+   color:#CCCCCC;
+   text-decoration: none;
+
+}
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: #808080;
+}
+
+p {
+  text-align: center;
+
+}
+
+h4 {
+  font-size: lighter;
+
+}
+h5 {
+  font-size: lighter;
+
+}
+
+
+.container {
+  padding: 0 0 0 0;
+
+}
+
+.logo {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  text-align: left;
+}
+
+.top-bar {
+  display:flex;
+  align-items:center;
+  font-family: Quicksand;
+
+}
+
+.top-tab {
+  height: 35px;
+  flex: 0 0 25%;
+  justify-content: space-around;
+  text-decoration: none;
+  font-size: 16px;
+
+  padding:10px;
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+  font-family: Quicksand;
+}
+
+.tab {
+  flex: 0 0 33%;
+  justify-content: space-around;
+}
+
+.footer {
+
+  font-size: 14px;
+  padding: 5px;
+  font-family: helvetica;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.footer h4 {
+
+}
+hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+i {
+  padding: 5px;
+}
+
+.wrapper {
+  background: rgba(87, 76, 71, 270);
+
+  padding: 40px;
+}
+.wrapper a {
+  text-decoration: none;
+
+}
+.wrapper a:hover {
+  opacity: 0.7;
+}
+
+.my-btn {
+  opacity: 0.8;
+  text-decoration: none;
+
+}
+
+.my-btn:hover {
+
+  text-decoration: none;
+
+}
+.marmite {
+  height: 70px;
+}
+.btn-solid {
+    border-style: solid;
+    border-width: 1px;
+
+    padding: 10px;
+    margin-right: 0px;
+}
