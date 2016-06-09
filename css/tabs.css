@@ -2,7 +2,6 @@
   display: flex;
   padding: 5px 5px 5px 5px;
   font-style: lighter;
-
   color: #CCCCCC;
   align-items: center;
   font-family: Quicksand;
@@ -29,7 +28,6 @@
 
   justify-content: space-around;
   flex: 0 0 20%;
-
   text-align: center;
   padding: 10px 10px;
 }
@@ -37,7 +35,7 @@
   border-radius: 10px 0 0 10px;
 }
 .tab:last-child {
-  border-radius: 0 10px 10px 0;
+  border-radius: 0 10px 15px 0;
 }
 .tab.active {
   background: #CCCCCC;
