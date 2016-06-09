@@ -28,6 +28,8 @@ a:visited {
   color:#CCCCCC;
 }
 
+
+
 a {
    text-decoration-style: none;
    color:#CCCCCC;
@@ -76,7 +78,6 @@ h5 {
 
 .top-tab {
   height: 35px;
-
   flex: 0 0 20%;
 
   justify-content: space-around;
@@ -86,16 +87,7 @@ h5 {
   padding:10px;
 }
 
-.tabs {
-  display: flex;
-  align-items: center;
-  font-family: Quicksand;
-}
 
-.tab {
-  flex: 0 0 33%;
-  justify-content: space-around;
-}
 
 
 .footer {
