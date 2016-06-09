@@ -2,8 +2,9 @@
   display: flex;
   padding: 5px 5px 5px 5px;
   font-style: lighter;
-  font-family: Oswald;
   color: #CCCCCC;
+  align-items: center;
+  font-family: Quicksand;
 }
 .tabs a {
   color: #CCCCCC;
@@ -23,8 +24,8 @@
   margin-bottom: 0;
 }
 .tab {
-
-  flex: 0 0 25%;
+  justify-content: space-around;
+  flex: 0 0 20%;
   text-align: center;
   padding: 10px 10px;
 }
